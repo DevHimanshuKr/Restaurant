@@ -1,0 +1,315 @@
+/* laptop */
+@media (min-width:800px) and (max-width:1400px) {
+
+    /* service point */
+    .easy img{
+        width: 150px;
+        height: 150px;
+    }
+    .faster img{
+        width: 150px;
+        height: 150px; 
+    }
+    .best img{
+        width: 150px;
+        height: 150px; 
+    }
+    .serv h4{
+        font-size: 20px;
+    }
+    .serv p{
+        font-size: 14px;
+        width: 250px;
+    }
+
+    /* menu */
+
+    .menu{
+        width: 200px;
+        height: 200px;
+    }
+    .price h5{
+        font-size: 20px;
+    }
+    .price h5 span{
+        font-size: 13px;
+    }
+    .price h4{
+        font-size: 15px;
+    }
+    .price a{
+        font-size: 12px;
+    }
+
+    /* feedback */
+    
+    
+    .f-img img{
+        width: 450px;
+    }
+    .f-content .content-header{
+        font-size: 12px;
+    }
+    .f-content h2{
+        font-size: 38px;
+    }
+    .f-content .feedback{
+        font-size: 13px;
+        width: 460px;
+    }
+    .clint-img{
+        width: 40px;
+        height: 40px;
+    }
+    .clint-content h4{
+        font-size: 14px;
+    }
+    .clint-content p{
+        font-size: 12px;
+    }
+    .review span{
+        font-size: 12px;
+    }
+
+    /* download */
+
+    .down{
+        font-size: 14px;
+    }
+    .down-text h2{
+        font-size: 38px;
+    }
+    .down-p{
+        font-size: 14px;
+        width: 420px;
+    }
+    .down-text button{
+        padding: 15px 15px;
+        font-size: 13px;
+    }
+    .down-img img{
+        height: 450px;
+    }
+
+}
+
+/* mobile */
+@media (min-width:300px) and (max-width:800px){
+    nav{
+        display: none;
+    }
+
+    /* delivering page */
+    .delv-content{
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 10px 0px;
+        height: 100vh;
+        gap: 30px;
+    }
+    .delv-text{
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        padding: 20px 0px;
+        gap: 15px;
+    }
+    .delv-logo{
+        display: none;
+    }
+    .delv-logo img{
+        height: 20px;
+        width: 20px;
+    }
+    .delv-text h1{
+        font-size: 28px;
+        padding: 0px 40px;
+    }
+    .delv-text p{
+        font-size: 13px;
+        padding: 0px 40px;
+    }
+    .delv-text button{
+        padding: 10px 28px;
+        font-size: 14px;
+    }
+    .delv-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .delv-img img{
+        width: 320px;
+        height: 320px;
+    }
+
+    /* service point */
+    .service-box{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding: 40px 0px;
+    }
+    .service-content span{
+        font-size: 14px;
+    }
+    .service-content h4{
+        font-size: 28px;
+        width: 400px;
+        padding: 0px 10px;
+    }
+    .service-img{
+        flex-direction: column;
+        align-items: center;
+    }
+    .serv{
+        width: 220px;
+        height: 200px;
+    }
+    .easy img{
+        width: 100px;
+        height: 100px;
+    }
+    .faster img{
+        width: 100px;
+        height: 100px; 
+    }
+    .best img{
+        width: 100px;
+        height: 100px; 
+    }
+    .serv h4{
+        font-size: 16px;
+    }
+    .serv p{
+        font-size: 12px;
+    }
+
+    /* menu */
+    .menu-content{
+        width: 100%;
+        height: auto;
+    }
+    .m-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .m-heading span{
+        font-size: 14px;
+    }
+    .m-heading h2{
+        font-size: 32px;
+        text-align: center;
+        padding: 0px 10px;
+    }
+    .m-img{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px 0px;
+    }
+    .menu{
+        width: 250px;
+        height: 250px;
+    }
+    .blur{
+        display: none;
+    }
+
+    /* feedback */
+    .f-container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 0px;
+    }
+    .f-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .f-img img{
+        width: 250px;
+        height: 300px;
+    }
+    .f-content{
+        align-items: center;
+        gap: 20px;
+    }
+    .f-content .content-header{
+        font-size: 14px;
+    }
+    .f-content h2{
+        font-size: 28px;
+        text-align: center;
+        width: 300px;
+    }
+    .f-container .feedback{
+        font-size: 14px;
+        width: 300px;
+        text-align: center;
+    }
+    .clint img{
+        width: 40px;
+        height: 40px;
+    }
+    .clint-content h4{
+        font-size: 14px;
+    }
+    .clint-content p{
+        font-size: 12px;
+    }
+    .review{
+        gap: 5px;
+    }
+
+    /* download */
+    .download-container{
+        width: 100%;
+        height: auto;
+        padding: 10px 0px;
+    }
+    .down-text{
+        align-items: center;
+        gap: 10px;
+    }
+    .down{
+       display: none;
+    }
+    .down-text h2{
+        font-size: 28px;
+        width: 200px;
+        text-align: center;
+    }
+    .down-p{
+        display: none;
+    }
+    .down-text button{
+        width: 120px;
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .down-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .down-img img{
+        height: 180px;
+        width: 180px;
+    }
+
+    /* footer */
+    .footer-content{
+        width: 100%;
+        height: auto;
+        
+    }
+    .
+
+
+}
